@@ -1,3 +1,9 @@
+<p align="center">
+  <img
+    src="Screenshot 2026-10-18 175555.png"
+    alt="platform logo"
+  >
+</p>
 <div align="center">
 
 # Car Price Prediction & Market Segmentation
