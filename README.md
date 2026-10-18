@@ -66,19 +66,7 @@ The notebook's saved output reports **19,237 rows and 18 columns** before prepar
 
 ## Dataset
 
-The notebook expects a file named `car_price_prediction.csv`. The dataset is **not included in this repository**, and the notebook does not record a public download URL.
 
-The notebook currently loads the CSV using a machine-specific Windows path:
-
-```python
-df = pd.read_csv(r"C:\Users\ASUS\Downloads\ML\car_price_prediction.csv")
-```
-
-To run it on another machine, place the CSV in the repository root and change the line to:
-
-```python
-df = pd.read_csv("car_price_prediction.csv")
-```
 
 The notebook references these columns:
 
@@ -183,7 +171,7 @@ python -m pip install numpy pandas matplotlib seaborn scikit-learn scipy jupyter
 ## Running the Notebook
 
 1. Put `car_price_prediction.csv` in the repository root.
-2. Update the `pd.read_csv` path as described in [Dataset](#dataset).
+2. Update the `pd.read_csv` path 
 3. Start Jupyter Notebook:
 
    ```bash
